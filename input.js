@@ -30,4 +30,7 @@ const setupInput = function (anActualConnectionThatHasBeenCreated) {
     if (key === 'd'){
         connection.write("Move: right");
     }
+    if (key === 'h'){
+        connection.write("Say: hello!");
+    }
   }
